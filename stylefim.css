@@ -1,8 +1,8 @@
 body{
-	/*background-image: url('mih.jpg');
+	background-image: url('wall.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;*/
+	background-attachment: fixed;
 	background-color: black;
 	color: white;
 	font-family: "Times New Roman", sans-serif;
@@ -10,10 +10,6 @@ body{
 
 p{
 	font-size: 70px;
-}
-
-k{
-	color: black;
 }
 
 .cabecalho h1{
@@ -90,13 +86,5 @@ k{
 .videofim video{
 	transform: scaleZ(-1) rotate(90deg);
 	margin-top: -100px;
-	border: 4px solid darkorange;
-}
-
-.inicio center:hover{
-	cursor: pointer;
-}
-
-.inicio img{
 	border: 4px solid darkorange;
 }

@@ -93,7 +93,23 @@ k{
 	border: 4px solid darkorange;
 }
 
-.inicio center:hover{
+.inicio img:hover{
+	cursor: pointer;
+}
+
+.inicio1 img:hover{
+	cursor: pointer;
+}
+
+.inicio span:hover{
+	cursor: pointer;
+}
+
+.inicio2 img{
+	width: 300px;
+}
+
+.inicio2 img:hover{
 	cursor: pointer;
 }
 

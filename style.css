@@ -51,6 +51,10 @@ k{
 	margin: 10px;
 }
 
+.gift img{
+	width: 500px;
+}
+
 @keyframes colorpix{
 	0%
 	{

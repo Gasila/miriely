@@ -1,9 +1,17 @@
-function pedirSenha() {
-      var senha = prompt("Digita a senha delicia:");
+function normalizarTexto(texto) {
+  return texto
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // remove acentos
+    .replace(/\s+/g, "");            // remove todos os espaços
+}
 
-      if (senha == "1243") {
-        location.href = "fim.htm";;
-      } else {
-        alert("errou bb 😏");
-      }
-    }
+function pedirSenha() {
+  var senha = prompt("Digita a senha delícia:");
+
+  if (senha && normalizarTexto(senha) === normalizarTexto("1243")) {
+    location.href = "fim.htm";
+  } else {
+    alert("Errou bb 😏");
+  }
+}

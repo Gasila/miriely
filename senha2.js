@@ -1,9 +1,9 @@
 function normalizarTexto(texto) {
   return texto
+    .trimEnd() // só remove espaços no final
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "") // remove acentos
-    .replace(/\s+/g, "");            // remove todos os espaços
+    .replace(/[\u0300-\u036f]/g, ""); // remove acentos
 }
 
 function pedirSenha() {

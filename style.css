@@ -143,29 +143,20 @@ k{
 }
 
 .galeria {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  justify-items: center;
 }
 
 .foto {
-  position: absolute;
-  width: 1200px;
+ width: 180px;
+  height: 240px;
   object-fit: cover;
+   transition: transform 0.3s;
 }
 
-/* Posições personalizadas */
-.foto1 {
-  top: 80px;
-  left: 40px;
-}
+.foto:nth-child(3n) { transform: rotate(2deg); }
+.foto:nth-child(4n) { transform: rotate(-3deg); }
+.foto:nth-child(5n) { transform: rotate(1deg); }
 
-.foto2 {
-  top: 160px;
-  right: 60px;
-}
-
-.foto3 {
-  bottom: 50px;
-  left: 100px;
-}

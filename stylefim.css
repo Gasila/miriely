@@ -150,7 +150,7 @@ p{
 }
 
 .foto {
-	width: 600px;
+	width: 1000px;
 	object-fit: cover;
 	transition: transform 0.3s;
 }
@@ -158,3 +158,7 @@ p{
 .foto:nth-child(3n) { transform: rotate(2deg); }
 .foto:nth-child(4n) { transform: rotate(-3deg); }
 .foto:nth-child(5n) { transform: rotate(1deg); }
+
+.gal img{
+	width: 500px;
+}

@@ -120,3 +120,52 @@ k{
 .inicio img{
 	border: 4px solid darkorange;
 }
+
+.gift img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	cursor: pointer;
+}
+
+.botao {
+	display: inline-block;
+	padding: 12px 24px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border: 2px solid #ff69b4;
+	border-radius: 10px;
+	box-shadow: 0 0 12px rgba(255, 182, 193, 0.6);
+	transition: transform 0.2s ease;
+}
+
+.galeria {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.foto {
+  position: absolute;
+  width: 1200px;
+  object-fit: cover;
+}
+
+/* Posições personalizadas */
+.foto1 {
+  top: 80px;
+  left: 40px;
+}
+
+.foto2 {
+  top: 160px;
+  right: 60px;
+}
+
+.foto3 {
+  bottom: 50px;
+  left: 100px;
+}

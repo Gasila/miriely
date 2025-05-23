@@ -150,7 +150,7 @@ p{
 }
 
 .foto {
-	width: 2000px;
+	width: 750px;
 	object-fit: cover;
 	transition: transform 0.3s;
 }

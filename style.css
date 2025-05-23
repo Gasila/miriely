@@ -141,22 +141,3 @@ k{
 	box-shadow: 0 0 12px rgba(255, 182, 193, 0.6);
 	transition: transform 0.2s ease;
 }
-
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 30px;
-  justify-items: center;
-}
-
-.foto {
- width: 180px;
-  height: 240px;
-  object-fit: cover;
-   transition: transform 0.3s;
-}
-
-.foto:nth-child(3n) { transform: rotate(2deg); }
-.foto:nth-child(4n) { transform: rotate(-3deg); }
-.foto:nth-child(5n) { transform: rotate(1deg); }
-

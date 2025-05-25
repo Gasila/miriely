@@ -140,5 +140,11 @@ k{
 	border: 2px solid #ff69b4;
 	border-radius: 10px;
 	box-shadow: 0 0 12px rgba(255, 182, 193, 0.6);
-	transition: transform 0.2s ease;
+	transition: all 0.5s ease;
+}
+
+.botao:hover {
+  background-color: #ff00cc;
+  color: white;
+  box-shadow: 0 0 20px #ff00cc, 0 0 30px #ff00cc;
 }

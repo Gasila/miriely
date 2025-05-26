@@ -162,3 +162,28 @@ p{
 .gal img{
 	width: 270px;
 }
+
+/*.vinil-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.vinil {
+  width: 100px;
+  height: 100px;
+  margin-top: -30px;
+  border-radius: 50%;
+  background-image: url('cover.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 8px solid black;
+  animation: spin 5s linear infinite;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
